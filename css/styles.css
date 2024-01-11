@@ -277,11 +277,12 @@ background-color: #6C8CFF;
 }
 
 .boxes-box {
-    display: inline-flex;
-    min-width: 486px;
+    display: flex;
+    width: 486px;
     padding: 32px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 8px;
     background-color: #F6F6FE;
+    flex-wrap: wrap;
 }
