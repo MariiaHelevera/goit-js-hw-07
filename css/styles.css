@@ -147,6 +147,10 @@
     flex-direction: column;
 }
 
+.login-form label:first-child {
+   margin-bottom: 8px;
+}
+
 .login-form input {
     width: 360px;
     border-radius: 4px;
