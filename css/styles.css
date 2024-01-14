@@ -113,13 +113,13 @@
 
 #name-input:hover,
 .login-form input:hover,
-.controls-box input:hover {
+#controls input:hover {
     border-color: black;
 }
 
 #name-input:focus-visible,
 .login-form input:focus-visible,
-.controls-box input:focus-visible {
+#controls input:focus-visible {
     outline: none;
 }
 
@@ -220,7 +220,7 @@
     background-color: #6C8CFF;
 }
 
-.controls-box {
+#controls {
     display: inline-flex;
     padding: 32px;
     align-items: center;
@@ -230,13 +230,13 @@
     margin-bottom: 16px;
 }
 
-.controls-box input::-webkit-outer-spin-button,
-.controls-box input::-webkit-inner-spin-button {
+#controls input::-webkit-outer-spin-button,
+#controls input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
-.controls-box input {
+#controls input {
     width: 150px;
     padding: 8px;
     box-sizing: border-box;
@@ -247,7 +247,7 @@
     font-size: 16px;
 }
 
-.controls-box button {
+#controls button {
     display: flex;
     width: 120px;
     padding: 8px 16px;
@@ -264,15 +264,15 @@
     border: none;
 }
 
-.controls-box button:hover {
+#controls button:hover {
 background-color: #6C8CFF;
 }
 
-.controls-box button:last-child {
+#controls button:last-child {
     background-color: #FF4E4E;
 }
 
-.controls-box button:last-child:hover {
+#controls button:last-child:hover {
     background-color: #FF7070;
 }
 

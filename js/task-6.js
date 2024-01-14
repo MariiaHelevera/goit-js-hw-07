@@ -8,13 +8,11 @@ const createButton = document.querySelector('[data-create]');
 const destroyButton = document.querySelector('[data-destroy]');
 
 createButton.addEventListener('click', function () {
-  const input = document.querySelector('.controls-box input');
+  const input = document.querySelector('input[type=number]');
   const amount = Number(input.value);
 
   if (amount >= 1 && amount <= 100) {
     createBoxes(amount);
-  } else {
-    alert('Please enter a number between 1 and 100.');
   }
 
   input.value = '';
